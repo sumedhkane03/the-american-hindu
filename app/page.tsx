@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Image from "next/image";
+import Member from "../components/Member";
 
 export default function Page() {
   return (
@@ -86,7 +87,50 @@ export default function Page() {
           </div>
         </section>
         <section id="about" className="py-8 bg-gray-100">
-          <div className="container mx-auto px-4 max-w-7xl"></div>
+          <div className="container mx-auto px-4 max-w-7xl">About section</div>
+        </section>
+        <section id="team" className="bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
+          <div className="team-page-container">
+          <Member
+              picture={
+              <img src={"/mangesh-headshot.jpeg"}   />
+            }
+              name='Sumedh Kane'
+              role='Developer'
+              major="Computer Science"
+              ig="https://www.instagram.com/sumedhkane/"
+              li="https://www.linkedin.com/in/sumedh-kane/"
+              git="https://github.com/sumedhkane03"
+              id=""
+              fb="false"
+          />
+          <Member
+              picture={
+                <img src="/sumedh-headshot.png"></img>
+            }
+              name='Sumedh Kane'
+              role='Developer'
+              major="Computer Science"
+              ig="https://www.instagram.com/sumedhkane/"
+              li="https://www.linkedin.com/in/sumedh-kane/"
+              git="https://github.com/sumedhkane03"
+              id="sumedh"
+              fb="false"
+          />
+          <Member
+              picture={
+              <img src={"/swami.jpg"} />
+            }
+              name='New Member'
+              role='Hindu'
+              major="Hindu"
+              ig=""
+              li=""
+              git=""
+              id="mangesh"
+              fb="false"
+          />
+          </div>
         </section>
       </main>
     </div>
