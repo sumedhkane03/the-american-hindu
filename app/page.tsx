@@ -95,12 +95,12 @@ export default function Page() {
               picture={
               <img src={"/mangesh-headshot.jpeg"}   />
             }
-              name='Sumedh Kane'
+              name='Mangesh Ahirrao'
               role='Developer'
               major="Computer Science"
-              ig="https://www.instagram.com/sumedhkane/"
-              li="https://www.linkedin.com/in/sumedh-kane/"
-              git="https://github.com/sumedhkane03"
+              ig="https://www.instagram.com/mangeshjahirrao/"
+              li="https://www.linkedin.com/in/mangeshjahirrao/"
+              git="https://github.com/MangeshJAhirrao"
               id=""
               fb="false"
           />

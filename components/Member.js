@@ -9,6 +9,7 @@ import '../styles/Team.css'
 
 const Member = ({picture, name, role, major, ig, li, git, id,fb}) => {
   return (
+    
     <div className='member-card-container' id={id}>
         {picture}
         <h1 className='member-name'>{name}</h1>
@@ -28,6 +29,7 @@ const Member = ({picture, name, role, major, ig, li, git, id,fb}) => {
             )}
         </div>
     </div>
+    
   )
 }
 

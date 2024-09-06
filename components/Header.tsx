@@ -21,7 +21,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "events", "join"];
+      const sections = ["home", "about", "team", "join"];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -43,7 +43,7 @@ export default function Header() {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Events", href: "#events" },
+    { name: "Team", href: "#team" },
     { name: "Join Us", href: "#join" },
   ];
 
