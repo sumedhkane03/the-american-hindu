@@ -86,8 +86,35 @@ export default function Page() {
             </a>
           </div>
         </section>
-        <section id="about" className="py-8 bg-gray-100">
-          <div className="container mx-auto px-4 max-w-7xl">About section</div>
+        <section id="about" className="py-8 bg-gradient-to-br from-red-300 via-navy-400 to-sky-200">
+          <div className="container mx-auto px-4 max-w-7xl">
+            <p className="text-lg sm:text-xl lg:text-2xl text-center mb-8">
+            The American Hindu is a dynamic, youth-driven initiative
+            that began as an Instagram content creator in January.
+            </p>
+            <p className="text-md sm:text-lg lg:text-xl text-center mb-8">
+            Seeing a lack of informative content on Hindu
+            culture, Hindu-American students and young professionals
+            from around the country came together to fill the void on
+            social media. Focusing on education and advocacy of
+            Hindu topics, the page features several post series such as
+            Hinduism 101, Sanskrit Non-Translatables, Festival Posts,
+            and Trending Topics.
+            </p>
+            <p className="text-md sm:text-lg lg:text-xl text-center mb-8">
+            The American Hindu has since evolved into a self-publishing organization specializing in a diverse range of
+            Hindu educational content. Through a blend of traditional
+            and modern mixed-media formats, including print and
+            digital publications, videos, and interactive resources, the
+            organization aims to make Hindu culture, philosophy, and
+            history accessible and engaging for a wide audience. By
+            empowering young creators and fostering a collaborative
+            environment, The American Hindu preserves and promotes
+            cultural heritage and encourages the exploration and
+            understanding of Hindu traditions in a contemporary
+            context.
+            </p>
+          </div>  
         </section>
         <section id="team" className="bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
           <div className="team-page-container">
@@ -124,7 +151,7 @@ export default function Page() {
               name='New Member'
               role='Hindu'
               major="Hindu"
-              ig=""
+              ig="https://www.instagram.com/theamericanhindu/"
               li=""
               git=""
               id="mangesh"
