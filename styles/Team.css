@@ -22,7 +22,7 @@
     justify-content: center;
     flex-direction: row;
     z-index: 4;
-    margin-bottom: -20vh;
+    /* margin-bottom: -20vh; */
 }
 
 #team-page-title{
@@ -80,6 +80,8 @@
     animation-duration: 0.7s;
     animation-fill-mode: forwards;
 }
+
+
 
 #sumedh{
     animation-delay: 0.2s;
