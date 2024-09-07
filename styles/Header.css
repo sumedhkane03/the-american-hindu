@@ -1,0 +1,19 @@
+.header-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.header-socials > a{
+    margin-top: 1vw;
+    margin: 0.2vw;
+    opacity: 60%;
+
+    transition: 0.3s;
+}
+
+.header-socials > a:hover{
+    opacity: 100%;
+
+}

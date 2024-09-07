@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("");
@@ -21,7 +22,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "events", "join"];
+      const sections = ["home", "about", "team", "join"];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -43,16 +44,35 @@ export default function Header() {
   const navItems = [
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Events", href: "#events" },
+    { name: "Team", href: "#team" },
     { name: "Join Us", href: "#join" },
   ];
 
   if (isMobile) {
-    return null; // Don't render the header on mobile devices
+    return (
+      <>
+    <div className='mx-auto flex justify-center flex-col items-center mb-4 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+                <img
+                    src="swami.jpg"
+                    alt="The American Hindu Logo"
+                    className="w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2"
+                />
+            
+    
+    <div className="header-socials">
+    <a target="_blank" href="https://google.com"><BsFacebook/></a>
+    <a target="_blank" href="https://google.com"><BsInstagram/></a>
+    <a target="_blank" href="https://google.com"><BsTwitterX/></a>
+    <a target="_blank" href="https://google.com"><BsYoutube/></a>
+    </div>
+    
+    </div>
+  </>
+    ); // Don't render the header on mobile devices
   }
 
   return (
-    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px]">
+    <header className="fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans">
       <div className="px-4 sm:px-8 py-3 flex items-center justify-between">
         {navItems.map((item) => (
           <Link

@@ -5,13 +5,12 @@
 
 .tah-clear-sans{
     font-family: "Clear Sans";
-    font-size: 120%;
-    
+
 }
 
 .book-img-style{
     margin-top: 5vh;
-    margin-left: 10vh;
+
 }
 
 .book-img-blur{
@@ -35,3 +34,61 @@
         transform: translateY(0);
     }
 }
+
+
+.buy-book > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    
+}
+
+.buy-book{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    
+    /* color: rgb(255, 255, 255); */
+    color: black;
+    padding: 20px 45px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+
+    
+    
+
+    
+    background: -webkit-linear-gradient(20deg, #da48ff,#4fcdff);
+
+    box-shadow:
+    0 0 50px rgba(255, 255, 255, 0.114),           
+    /* outer white  */
+    -10px 0 80px #f0f,        
+    /* outer left magenta  */
+    10px 0 80px #0ff; 
+    
+
+    background: rgb(255, 255, 255);
+
+    
+
+    transition: 0.3s;
+}
+
+.buy-book:hover{
+
+    transform: scale(1.1);
+
+    /* background: rgb(214,137,255); */
+    /* background: linear-gradient(126deg, rgba(214,137,255,1) 0%, rgba(115,241,255,1) 100%); */
+
+
+}
+
