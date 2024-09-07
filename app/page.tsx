@@ -6,7 +6,9 @@ import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/Book.css";
 import "@fontsource/clear-sans";
+
 import Button from "react-bootstrap/Button";
+
 
 export default function Page() {
   // Function to open the Amazon link to buy the book when the "Buy Now" button is clicked
@@ -18,11 +20,23 @@ export default function Page() {
   };
 
   return (
+
     <>
       {/* <div className="min-h-screen bg-gray-100 tah-clear-sans"> */}
       <Header />
       {/* <MobileHeader/> */}
+
       <main>
+        <section id="book" className="min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 mt-5 custom-book">
+          <h2 className="text-center tah-clear-sans mb-12 ">
+            The Hindu-American Mosaic is the inaugural publication from The American Hindu,
+            offering a tribute to the history and evolution of the Hindu community in the United States.
+            Through recounts of various chapters of this multi-century history,
+            this book delves into the diverse experiences and contributions of Hindu-Americans,
+            celebrating their cultural heritage and impact on the broader American landscape.
+          </h2>
+          <img className="max-w-[55%] max-h-[55%] book-img-blur book-img-style" src="/book-rhs.png" />
+        </section>
         <section
           id='book'
           className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
@@ -57,8 +71,10 @@ export default function Page() {
                 {" "}
                 {/* Decreased image size */}
                 <Image
+
                   src='/swami.jpg'
                   alt='HMSA Logo'
+
                   fill
                   style={{ objectFit: "contain" }}
                   className='rounded-lg'
@@ -118,6 +134,7 @@ export default function Page() {
             </a>
           </div>
         </section>
+
         <section
           id='about'
           className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
@@ -197,11 +214,13 @@ export default function Page() {
                   Join Our Community
                 </h2>
                 <p className='text-xl sm:text-2xl mb-6 text-left'>
+                  
                   Become a part of the Hindu Medical Society of America and
                   contribute to our mission of integrating Hindu principles with
                   modern medicine.
                 </p>
                 <a
+
                   href='https://forms.gle/W6zBeMVQzswTN1CK8'
                   target='_blank'
                   rel='noopener noreferrer'
@@ -211,7 +230,9 @@ export default function Page() {
                   </button>
                 </a>
               </div>
+
               <div className='md:w-1/3 mt-8 md:mt-0 flex items-center justify-center md:justify-end'>
+
                 Hello
               </div>
             </div>

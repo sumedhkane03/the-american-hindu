@@ -5,10 +5,12 @@
 
 .tah-clear-sans{
     font-family: "Clear Sans";
+
 }
 
 .book-img-style{
     margin-top: 5vh;
+
 }
 
 .book-img-blur{
@@ -32,6 +34,7 @@
         transform: translateY(0);
     }
 }
+
 
 .buy-book > p {
     display: block;
@@ -88,3 +91,4 @@
 
 
 }
+

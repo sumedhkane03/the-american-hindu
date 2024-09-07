@@ -1,11 +1,14 @@
 import React from 'react'
+
 import { BsFacebook, BsInstagram, BsTwitter, BsTwitterX, BsYoutube } from 'react-icons/bs'
 import "../styles/Header.css";
 import { FaFacebook, FaInstagram } from 'react-icons/fa';
 
+
 function MobileHeader() {
   return (
     <>
+
     <div className='mx-auto flex justify-center flex-col items-center mb-4 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
                 <img
                     src="swami.jpg"
@@ -27,3 +30,4 @@ function MobileHeader() {
 }
 
 export default MobileHeader;
+
