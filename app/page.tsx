@@ -4,12 +4,24 @@ import React from "react";
 import Header from "../components/Header";
 import Image from "next/image";
 import Member from "../components/Member";
+import "../styles/Book.css";
+import "@fontsource/clear-sans";
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 tah-clear-sans">
       <Header />
       <main>
+        <section id="book" className="min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book">
+          <h2 className="text-center tah-clear-sans">
+            The Hindu-American Mosaic is the inaugural publication from The American Hindu,
+            offering a tribute to the history and evolution of the Hindu community in the United States. 
+            Through recounts of various chapters of this multi-century history, 
+            this book delves into the diverse experiences and contributions of Hindu-Americans, 
+            celebrating their cultural heritage and impact on the broader American landscape.
+            </h2>
+          <img className="max-w-[55%] max-h-[55%] book-img-blur book-img-style"src="/book-rhs.png"/>
+          </section>
         <section
           id="home"
           className="min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400"
@@ -86,7 +98,7 @@ export default function Page() {
             </a>
           </div>
         </section>
-        <section id="about" className="py-8 bg-gradient-to-br from-red-300 via-navy-400 to-sky-200">
+        <section id="about" className="min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
           <div className="container mx-auto px-4 max-w-7xl">
             <p className="text-lg sm:text-xl lg:text-2xl text-center mb-8">
             The American Hindu is a dynamic, youth-driven initiative
@@ -116,7 +128,7 @@ export default function Page() {
             </p>
           </div>  
         </section>
-        <section id="team" className="bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
+        <section id="team" className="min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
           <div className="team-page-container">
           <Member
               picture={
@@ -157,6 +169,36 @@ export default function Page() {
               id="mangesh"
               fb="false"
           />
+          </div>
+        </section>
+        <section id="join" className="min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400">
+
+          <div className="container mx-auto px-4 max-w-7xl">
+            <div className="flex flex-col md:flex-row items-start justify-between">
+              <div className="text-white md:w-2/3 pr-0 md:pr-8">
+                <h2 className="text-4xl xs:text-5xl lg:text-6xl font-bold mb-4 text-left">
+                  Join Our Community
+                </h2>
+                <p className="text-xl sm:text-2xl mb-6 text-left">
+                  Become a part of the Hindu Medical Society of America and
+                  contribute to our mission of integrating Hindu principles with
+                  modern medicine.
+                </p>
+                <a
+                  href="https://forms.gle/W6zBeMVQzswTN1CK8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block"
+                >
+                  <button className="bg-white text-hmsa-blue font-bold py-2 px-6 rounded-full hover:bg-gray-200 transition duration-300">
+                    Join HMSA
+                  </button>
+                </a>
+              </div>
+              <div className="md:w-1/3 mt-8 md:mt-0 flex items-center justify-center md:justify-end">
+                Hello
+              </div>
+            </div>
           </div>
         </section>
       </main>

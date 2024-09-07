@@ -1,0 +1,34 @@
+.custom-book{
+    background: linear-gradient(135deg,rgb(169,65,109),rgb(51,36,83));
+}
+
+
+.tah-clear-sans{
+    font-family: "Clear Sans";
+}
+
+.book-img-style{
+    margin-top: 5vh;
+}
+
+.book-img-blur{
+    -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    
+    animation-name: fadeInUp-book-img;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeInUp-book-img {
+    0% {
+        opacity: 50%;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
