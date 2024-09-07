@@ -6,11 +6,13 @@ import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/Book.css";
 import "@fontsource/clear-sans";
+import MobileHeader from "@/components/MobileHeader";
 
 export default function Page() {
   return (
     <div className="min-h-screen bg-gray-100 tah-clear-sans">
-      <Header />
+      {/* <Header /> */}
+      <MobileHeader/>
       <main>
         <section id="book" className="min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book">
           <h2 className="text-center tah-clear-sans">
