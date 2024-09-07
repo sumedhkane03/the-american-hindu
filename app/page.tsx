@@ -41,7 +41,7 @@ export default function Page() {
           id='book'
           className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
           <div className='items-center text-center '>
-            <h2 className='text-center tah-clear-sans'>
+            <h2 className='text-center tah-clear-sans mr-9'>
               The Hindu-American Mosaic is the inaugural publication from The
               American Hindu, offering a tribute to the history and evolution of
               the Hindu community in the United States. Through recounts of
@@ -50,10 +50,11 @@ export default function Page() {
               celebrating their cultural heritage and impact on the broader
               American landscape.
             </h2>
-
-            <button className='w-80 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 mt-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl'>
+            <a href="https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1">
+              <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 mt-14 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book '>
                 Buy Now
               </button>
+            </a>
             {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
               Buy Now
             </Button> */}
@@ -217,7 +218,7 @@ export default function Page() {
                   Join Our Community
                 </h2>
                 <p className='text-xl sm:text-2xl mb-6 text-left'>
-                  
+
                   Become a part of the Hindu Medical Society of America and
                   contribute to our mission of integrating Hindu principles with
                   modern medicine.
