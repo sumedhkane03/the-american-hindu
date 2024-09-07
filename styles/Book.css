@@ -46,6 +46,12 @@
     
 }
 
+.buy-book-button-before{
+  
+    background-color: #d1512e; /* Green */      
+}
+
+
 .buy-book{
     opacity: 0;
     animation-name: fadeIn;

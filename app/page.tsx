@@ -51,9 +51,12 @@ export default function Page() {
               American landscape.
             </h2>
 
-            <button className='border-1px-black' onClick={buyBook}>
+            <button className='w-80 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 mt-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl'>
+                Buy Now
+              </button>
+            {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
               Buy Now
-            </button>
+            </Button> */}
           </div>
           <img
             className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
