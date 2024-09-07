@@ -5,10 +5,13 @@
 
 .tah-clear-sans{
     font-family: "Clear Sans";
+    font-size: large;
+
 }
 
 .book-img-style{
     margin-top: 5vh;
+
 }
 
 .book-img-blur{
@@ -33,6 +36,7 @@
     }
 }
 
+
 .buy-book > p {
     display: block;
     margin-block-start: 1em;
@@ -43,8 +47,14 @@
     
 }
 
+.buy-book-button-before{
+  
+    background-color: #d1512e;
+}
+
+
 .buy-book{
-    opacity: 0;
+    opacity: 50;
     animation-name: fadeIn;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
@@ -52,9 +62,9 @@
     
     /* color: rgb(255, 255, 255); */
     color: black;
+    background-color: #d1512e;
     padding: 20px 45px;
-    font-size: 15px;
-    border-radius: 10px;
+    font-size: 20px;
     cursor: pointer;
     margin-top: 30px;
 
@@ -62,17 +72,17 @@
     
 
     
-    background: -webkit-linear-gradient(20deg, #da48ff,#4fcdff);
+    /* background: -webkit-linear-gradient(20deg, #da48ff,#4fcdff); */
 
     box-shadow:
-    0 0 50px rgba(255, 255, 255, 0.114),           
+    
     /* outer white  */
-    -10px 0 80px #f0f,        
+    -10px 0 80px rgb(241, 4, 0.1),        
     /* outer left magenta  */
-    10px 0 80px #0ff; 
+    10px 0 80px rgb(172, 217, 0.1); 
     
 
-    background: rgb(255, 255, 255);
+    background-color: #d1512e;
 
     
 
@@ -88,3 +98,4 @@
 
 
 }
+
