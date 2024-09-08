@@ -165,50 +165,7 @@ const Navbar = () => {
                 <Alert text="Coming Soon"/>
             )}
 
-            {/* Event Invite */}
-            {invite && (
-                <>
-                    <div className='dark-bg dark-bg-enter' onClick={()=>{popUpLeave("inv")}} id='blurry-bg-2'/>
-                    <div className='popup-container popup-container-enter' id="cool-popup-2">
-                        <div className='popup gold-card'>
-                            <p className='invite-thanks'>You're Invited!</p>
-                            {/* <img src={require("../assets/events/NasheDi-txt.png")} alt="litesout" className='invite-img'/> */}
-                            <a href = "https://www.eventbrite.com/e/nashe-di-night-tickets-565509593417" className='get-tickets' target="_blank">
-                                Get Tickets
-                            </a>
-                            <p className='invite-thanks'>Use Code "CantWait" For 20% Off</p>
-                        </div>
-                    </div>
-                </>
-            )}
 
-            {/* Drink Deal */}
-            {/* {invite && (
-                <>
-                    <div className='dark-bg dark-bg-enter' onClick={()=>{popUpLeave("inv")}} id='blurry-bg-2'/>
-                    <div className='popup-container popup-container-enter' id="cool-popup-2">
-                        <div className='popup'>
-                            <p className='invite-thanks'>You're Invited!</p>
-                            <img src={require("../assets/events/clear-litesout.png")} alt="litesout" className='invite-img'/>
-                        </div>
-                    </div>
-                </>
-            )} */}
-
-            {/* {(waitlist) && (
-                <>
-                    <div className='dark-bg dark-bg-enter' onClick={()=>{popUpLeave("wl")}} id="blurry-bg"/>
-                    <div className='popup-container popup-container-enter' id="cool-popup">
-                        <div className='popup nitesout-card'>
-                            <p className='popup-text'>Want NitesOut in your city?<br/>Join our waitlist.</p>
-                            <form id='nitesout-waitlist' className='popup-inputs' onSubmit={saveAnswer}>
-                                <input ref={userEmail} type='email' placeholder='Your Email Address'/>
-                                <button type='submit'>Join</button> 
-                            </form>
-                        </div>
-                    </div>  
-                </>
-            )} */}
         
         {width > 900 && (
             <div className='nav' id='nav'>
@@ -220,14 +177,14 @@ const Navbar = () => {
                     <Link to='/about'><p className='nav-btn'>About us</p></Link>
                     <Link to='/events'><p className='nav-btn'>Events</p></Link>
 
-                    {/* <Link to='/blood-drive'><p className='menu-btn red-text'>Blood Drive</p></Link> */}
+
 
                     <Link to='/gallery'><p className='nav-btn'>Gallery</p></Link>
                     <Link to='/contact'><p className='nav-btn'>Contact us</p></Link>
                     <Link to='/competitions'><p className='nav-btn'>Competitions</p></Link>
 
 
-                    {/* <Link to='/signup'><p className='nav-btn'>Sign Up</p></Link> */}
+
                     {(displayName != null) && (
                         <>
                     <Link to='/my-profile'><p className='nav-btn'>{displayName}</p></Link>

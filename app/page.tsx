@@ -166,9 +166,9 @@ export default function Page() {
                   Join Our Community
                 </h2>
                 <p className='text-xl sm:text-2xl mb-6 text-left'>
-                  Become a part of The American Hindu's mailing list to stay
-                  updated on our mission to create Hindu representation in mixed
-                  media.
+                  Become a part of The American Hindu`&apos;`s mailing list to
+                  stay updated on our mission to create Hindu representation in
+                  mixed media.
                 </p>
                 <div className='flex flex-row gap-[2%]'>
                   <a
@@ -363,9 +363,9 @@ export default function Page() {
                     Join Our Community
                   </h2>
                   <p className='text-xl sm:text-2xl mb-6 text-center'>
-                    Become a part of The American Hindu's mailing list to stay
-                    updated on our mission to create Hindu representation in
-                    mixed media.
+                    Become a part of The American Hindu`&apos;`s mailing list to
+                    stay updated on our mission to create Hindu representation
+                    in mixed media.
                   </p>
                   <div className='flex flex-row gap-[2%] flex flex-col justify-center text-center align-center'>
                     <a
