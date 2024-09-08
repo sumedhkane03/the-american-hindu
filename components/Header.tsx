@@ -53,14 +53,14 @@ export default function Header() {
   if (isMobile) {
     return (
       <>
-        <div className='mx-auto flex justify-center flex-col items-center mb-4 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+        <div className='flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
           <img
             src='swami.jpg'
             alt='The American Hindu Logo'
             className='w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
           />
 
-          <div className='header-socials'>
+          <div className='header-socials flex flex-row gap-5 pt-2 pb-2'>
             <a target='_blank' href='https://google.com'>
               <BsFacebook />
             </a>
