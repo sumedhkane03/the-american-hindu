@@ -84,7 +84,7 @@ export default function Header() {
   }
 
   return (
-    <header className='fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px] .tah-clear-sans'>
+    <header className='fixed top-6 left-1/2 transform -translate-x-1/2 bg-transparent backdrop-blur-md z-50 rounded-2xl shadow-lg w-[90%] max-w-[900px]'>
       <div className='px-4 sm:px-8 py-3 flex items-center justify-between'>
         {navItems.map((item) => (
           <Link

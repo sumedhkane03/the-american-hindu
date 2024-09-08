@@ -10,6 +10,7 @@ import { BsFacebook, BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState, useEffect } from "react";
+import Footer from "../components/Footer";
 
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false);
@@ -401,8 +402,12 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            <p className='fixed bottom-1 opacity-50 left-2'>
+              © 2024 The American Hindu. All rights reserved.
+            </p>
           </section>
         </main>
+
         {/* </div> */}
       </>
     );
