@@ -15,8 +15,11 @@ export default function Header() {
   const pathname = usePathname();
 
   const menuLeave = () => {
-    document.getElementById("cool-menu").classList.remove("menu-enter");
-    document.getElementById("cool-menu").classList.add("menu-leave");
+    const coolMenu = document.getElementById("cool-menu");
+    if (coolMenu !== null) {
+      coolMenu.classList.add("menu-leave");
+      coolMenu.classList.remove("menu-enter");
+    }
 
     setTimeout(() => {
       setMenu(false);
@@ -65,7 +68,7 @@ export default function Header() {
   if (isMobile) {
     return (
       <>
-        <MdMenu
+        {/* <MdMenu
           className='open-menu'
           size={70}
           onClick={() => {
@@ -79,8 +82,9 @@ export default function Header() {
             <p className='menu-btn'>Home</p>
           </div>
         )}
+      */}
       </>
-    ); // Render Differently on Mobile
+    ); //Render mobile menu
   }
 
   return (
