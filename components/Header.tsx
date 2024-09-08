@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, act } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -27,6 +27,7 @@ export default function Header() {
         const element = document.getElementById(section);
         if (element) {
           const rect = element.getBoundingClientRect();
+
           return rect.top <= 100 && rect.bottom >= 100;
         }
         return false;
@@ -90,12 +91,12 @@ export default function Header() {
             }`}>
             <span className='relative inline-block'>
               {item.name}
-              <span
+              {/* <span
                 className={`absolute -bottom-1 left-0 h-0.5 bg-gray-700 transition-all duration-300 ${
                   activeSection === item.href.slice(1)
                     ? "w-full"
                     : "w-0 group-hover:w-full"
-                }`}></span>
+                }`}></span> */}
             </span>
           </Link>
         ))}

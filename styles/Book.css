@@ -100,5 +100,29 @@
 
 }
 
+html, body {
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    overflow-x: hidden; /* Prevents horizontal scroll if overflow occurs */
+    scroll-behavior: smooth;
+    height: 100%; /* Ensures body takes full height */
+  }
+  
+  .powerpoint-scroll-container {
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vw; /* Ensure full width without any overflow */
+    scrollbar-width: none; /* For Firefox */
+  }
 
+  .container::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+  }
+  
+  section {
+    scroll-snap-align: start;
+    height: 100vh;
+    width: 100vw; /* Ensures each section spans full width */
+  }
 

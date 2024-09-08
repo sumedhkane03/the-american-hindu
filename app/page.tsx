@@ -6,20 +6,23 @@ import Image from "next/image";
 import Member from "../components/Member";
 import "../styles/Book.css";
 import "@fontsource/clear-sans";
+import { BsFacebook, BsTwitterX } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export default function Page() {
   return (
     <>
-      {/* <div className="min-h-screen bg-gray-100 tah-clear-sans"> */}
+      {/* <div className='min-h-screen bg-gray-100 tah-clear-sans'> */}
       <Header />
       {/* <MobileHeader/> */}
 
-      <main>
+      <main className='powerpoint-scroll-container'>
         <section
           id='home'
           className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
-          <div className='items-center text-center '>
-            <h2 className='text-center tah-clear-sans mr-9'>
+          <div className='items-center text-center'>
+            <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12'>
               The Hindu-American Mosaic is the inaugural publication from The
               American Hindu, offering a tribute to the history and evolution of
               the Hindu community in the United States. Through recounts of
@@ -31,7 +34,7 @@ export default function Page() {
             <a
               target='_blank'
               href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
-              <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 mt-15 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book '>
+              <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book'>
                 Buy Now
               </button>
             </a>
@@ -57,7 +60,7 @@ export default function Page() {
                   alt='TAH Logo'
                   fill
                   style={{ objectFit: "contain" }}
-                  className='rounded-lg'
+                  className='rounded-lg book-img-blur book-img-style'
                 />
               </div>
             </div>
@@ -98,7 +101,7 @@ export default function Page() {
                 name='Ashima Sharma'
                 role='Author'
                 major='The Hindu American Mosaic'
-                ig='https://www.instagram.com/theamericanhindu/'
+                ig='false'
                 li='https://www.linkedin.com/in/ashima-sharma2000/'
                 git='false'
                 id=''
@@ -120,8 +123,8 @@ export default function Page() {
                 name='Ishita Raghuvanshi'
                 role='Illustrator'
                 major='Hindu'
-                ig='https://www.instagram.com/theamericanhindu/'
-                li='false'
+                ig=' https://www.instagram.com/isxr04'
+                li='https://www.linkedin.com/in/ishitaraghuvanshi22/'
                 git='false'
                 id='mangesh'
                 fb='false'
@@ -131,7 +134,7 @@ export default function Page() {
                 name='Ritika Devarakonda'
                 role='Illustrator'
                 major='The Hindu American Mosaic'
-                ig='https://www.instagram.com/theamericanhindu/'
+                ig='false'
                 li='https://www.linkedin.com/in/ritika-devarakonda/'
                 git='false'
                 id='ritika'
@@ -167,13 +170,41 @@ export default function Page() {
                   media.
                 </p>
                 <a
-                  href='https://forms.gle/W6zBeMVQzswTN1CK8'
+                  href='https://forms.gle/nD3DvXgjB5pTeuwy8'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='inline-block'>
-                  <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 transition duration-300'>
+                  <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 hover:scale-105 transition duration-300'>
                     Join Now
                   </button>
+                </a>
+              </div>
+              <div
+                id='social-icons-container'
+                className='grid grid-cols-2 p-20'>
+                <a
+                  target='_blank'
+                  href='https://facebook.com/TheAmericanHinduPage'
+                  className='pr-10 pb-10'>
+                  <BsFacebook />
+                </a>
+                <a
+                  target='_blank'
+                  href='https://instagram.com/theamericanhindu'
+                  className='pl-10 pb-10'>
+                  <FaInstagram />
+                </a>
+                <a
+                  target='_blank'
+                  href='https://x.com/American_Hindu'
+                  className='pr-10 pt-10'>
+                  <BsTwitterX />
+                </a>
+                <a
+                  target='_blank'
+                  href='mailto:theamericanhindu@gmail.com'
+                  className='pt-10 pl-10'>
+                  <MdEmail />
                 </a>
               </div>
             </div>
