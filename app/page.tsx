@@ -179,27 +179,25 @@ export default function Page() {
                       Join Now
                     </button>
                   </a>
-                  <div className='border-2 border-color-black pr-[11%] pt-[1%]'>
-                    <div className='text-2xl flex flex-row align-middle gap-[15%] pt-[1.5%] pl-[5%] '>
-                      <a
-                        target='_blank'
-                        href='https://facebook.com/TheAmericanHinduPage'>
-                        <BsFacebook />
-                      </a>
-                      <a
-                        target='_blank'
-                        href='https://instagram.com/theamericanhindu'>
-                        <FaInstagram />
-                      </a>
-                      <a target='_blank' href='https://x.com/American_Hindu'>
-                        <BsTwitterX />
-                      </a>
-                      <a
-                        target='_blank'
-                        href='mailto:theamericanhindu@gmail.com'>
-                        <MdEmail />
-                      </a>
-                    </div>
+                  {/* <div className='border-2 border-color-black pr-[11%] pt-[1%]'> */}
+                  <div className='text-2xl flex flex-row align-middle gap-[15%] pt-[1.5%] pl-[5%] '>
+                    <a
+                      target='_blank'
+                      href='https://facebook.com/TheAmericanHinduPage'>
+                      <BsFacebook />
+                    </a>
+                    <a
+                      target='_blank'
+                      href='https://instagram.com/theamericanhindu'>
+                      <FaInstagram />
+                    </a>
+                    <a target='_blank' href='https://x.com/American_Hindu'>
+                      <BsTwitterX />
+                    </a>
+                    <a target='_blank' href='mailto:theamericanhindu@gmail.com'>
+                      <MdEmail />
+                    </a>
+                    {/* </div> */}
                   </div>
                 </div>
               </div>
@@ -358,53 +356,48 @@ export default function Page() {
             id='join'
             className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
             <div className='container mx-auto px-4 max-w-7xl'>
-              <div className='flex flex-col md:flex-row items-start justify-between'>
+              <div className='flex flex-col md:flex-row items-start justify-center'>
                 <div className='text-white md:w-2/3 pr-0 md:pr-8'>
-                  <h2 className='text-4xl xs:text-5xl lg:text-6xl font-bold mb-4 text-left'>
+                  <h2 className='text-4xl xs:text-5xl lg:text-6xl font-bold mb-4 text-center'>
                     Join Our Community
                   </h2>
-                  <p className='text-xl sm:text-2xl mb-6 text-left'>
+                  <p className='text-xl sm:text-2xl mb-6 text-center'>
                     Become a part of The American Hindu's mailing list to stay
                     updated on our mission to create Hindu representation in
                     mixed media.
                   </p>
-                  <a
-                    href='https://forms.gle/nD3DvXgjB5pTeuwy8'
-                    target='_blank'
-                    rel='noopener noreferrer'
-                    className='inline-block'>
-                    <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 hover:scale-105 transition duration-300'>
-                      Join Now
-                    </button>
-                  </a>
-                </div>
-                <div
-                  id='social-icons-container'
-                  className='grid grid-cols-2 p-20'>
-                  <a
-                    target='_blank'
-                    href='https://facebook.com/TheAmericanHinduPage'
-                    className='pr-10 pb-10'>
-                    <BsFacebook />
-                  </a>
-                  <a
-                    target='_blank'
-                    href='https://instagram.com/theamericanhindu'
-                    className='pl-10 pb-10'>
-                    <FaInstagram />
-                  </a>
-                  <a
-                    target='_blank'
-                    href='https://x.com/American_Hindu'
-                    className='pr-10 pt-10'>
-                    <BsTwitterX />
-                  </a>
-                  <a
-                    target='_blank'
-                    href='mailto:theamericanhindu@gmail.com'
-                    className='pt-10 pl-10'>
-                    <MdEmail />
-                  </a>
+                  <div className='flex flex-row gap-[2%] flex flex-col justify-center text-center align-center'>
+                    <a
+                      href='https://forms.gle/nD3DvXgjB5pTeuwy8'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                      className='inline-block'>
+                      <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 hover:scale-105 transition duration-300'>
+                        Join Now
+                      </button>
+                    </a>
+                    {/* <div className='border-2 border-color-black pr-[11%] pt-[1%]'> */}
+                    <div className='text-2xl flex flex-row align-middle gap-[15%] pt-[10%] justify-center'>
+                      <a
+                        target='_blank'
+                        href='https://facebook.com/TheAmericanHinduPage'>
+                        <BsFacebook />
+                      </a>
+                      <a
+                        target='_blank'
+                        href='https://instagram.com/theamericanhindu'>
+                        <FaInstagram />
+                      </a>
+                      <a target='_blank' href='https://x.com/American_Hindu'>
+                        <BsTwitterX />
+                      </a>
+                      <a
+                        target='_blank'
+                        href='mailto:theamericanhindu@gmail.com'>
+                        <MdEmail />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
