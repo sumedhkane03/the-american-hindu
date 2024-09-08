@@ -77,9 +77,9 @@
     box-shadow:
     
     /* outer white  */
-    -10px 0 80px rgb(241, 4, 0.1),        
+    -10px 0 50px rgb(241, 4, 0.2),        
     /* outer left magenta  */
-    10px 0 80px rgb(172, 217, 0.1); 
+    10px 0 50px rgb(172, 217, 0.2); 
     
 
     background-color: #d1512e;
@@ -91,11 +91,14 @@
 
 .buy-book:hover{
 
-    transform: scale(1.1);
+    transform: scale(1.08);
 
     /* background: rgb(214,137,255); */
     /* background: linear-gradient(126deg, rgba(214,137,255,1) 0%, rgba(115,241,255,1) 100%); */
+    background-color: #f16037;
 
 
 }
+
+
 

@@ -84,10 +84,14 @@
 
 
 #sumedh{
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 #mangesh{
+    animation-delay: 0.25s;
+}
+
+#ritika{
     animation-delay: 0.4s;
 }
 
