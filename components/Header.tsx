@@ -5,11 +5,23 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { BsFacebook, BsInstagram, BsTwitterX, BsYoutube } from "react-icons/bs";
+import { MdMenu, MdClose } from "react-icons/md";
+import "../styles/Navbar.css";
 
 export default function Header() {
   const [activeSection, setActiveSection] = useState("");
   const [isMobile, setIsMobile] = useState(false);
+  const [menu, setMenu] = useState(false);
   const pathname = usePathname();
+
+  const menuLeave = () => {
+    document.getElementById("cool-menu").classList.remove("menu-enter");
+    document.getElementById("cool-menu").classList.add("menu-leave");
+
+    setTimeout(() => {
+      setMenu(false);
+    }, 400);
+  };
 
   useEffect(() => {
     const handleResize = () => {
@@ -53,28 +65,20 @@ export default function Header() {
   if (isMobile) {
     return (
       <>
-        <div className='flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-          <img
-            src='swami.jpg'
-            alt='The American Hindu Logo'
-            className='w-50 h-50 object-cover rounded-full overflow-hidden max-w-[100px] max-h-[100px] bg-red-100 mt-2'
-          />
+        <MdMenu
+          className='open-menu'
+          size={70}
+          onClick={() => {
+            setMenu(true);
+          }}
+        />
 
-          <div className='header-socials flex flex-row gap-5 pt-2 pb-2'>
-            <a target='_blank' href='https://google.com'>
-              <BsFacebook />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsInstagram />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsTwitterX />
-            </a>
-            <a target='_blank' href='https://google.com'>
-              <BsYoutube />
-            </a>
+        {menu && (
+          <div className='menu-container menu-enter' id='cool-menu'>
+            <MdClose className='close-menu' onClick={menuLeave} />
+            <p className='menu-btn'>Home</p>
           </div>
-        </div>
+        )}
       </>
     ); // Render Differently on Mobile
   }
