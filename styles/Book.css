@@ -11,13 +11,14 @@
 
 .book-img-style{
     margin-top: 5vh;
+    position: relative;
 
 }
 
 .book-img-blur{
     -webkit-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
-    box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
+    box-shadow: 12px 29px 81px -20px rgba(0,0,0,0.75);
     
     animation-name: fadeInUp-book-img;
     animation-duration: 1s;
@@ -125,4 +126,5 @@ html, body {
     height: 100vh;
     width: 100vw; /* Ensures each section spans full width */
   }
+
 

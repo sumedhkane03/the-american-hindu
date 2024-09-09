@@ -19,29 +19,16 @@
 }
 .text-over-image-container {
     position: relative;
-    text-align: center;
-    color: white;
-  }
-
-
-.mobile-header-the-american{
-    font-family: "Clear Sans";
-    font-size: small;
-    color: white;
-    position: absolute;
-    bottom: 8px;
 }
-.mobile-header-hindu{
-    font-family: "Clear Sans";
-    font-size: large;
-    color: white;
-    position: absolute;
-    bottom: 8px;
+
+.d-header {
+    position: relative;
 }
+
 
 @media screen and (max-width: 900px) {
     .mobile-nav{
-        position: fixed;
+        position: relative;
         left: 0;
         display: flex;
         align-items: center;
@@ -76,7 +63,7 @@
     }
     
     .menu-container{
-        position: fixed;
+        position: relative;
         top: 0;
         right: 0;
         height: 100vh;
