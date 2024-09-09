@@ -17,6 +17,27 @@
     opacity: 100%;
 
 }
+.text-over-image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+
+.mobile-header-the-american{
+    font-family: "Clear Sans";
+    font-size: small;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+}
+.mobile-header-hindu{
+    font-family: "Clear Sans";
+    font-size: large;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+}
 
 @media screen and (max-width: 900px) {
     .mobile-nav{
