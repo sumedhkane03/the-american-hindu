@@ -5,12 +5,21 @@
 
 .tah-clear-sans{
     font-family: "Clear Sans";
+<<<<<<< Updated upstream
 
+=======
+    font-size: large;
+>>>>>>> Stashed changes
 }
 
 .book-img-style{
     margin-top: 5vh;
 
+}
+
+.mobile-title {
+    font-family: "Clear Sans";
+    font-size: x-large;
 }
 
 .book-img-blur{
