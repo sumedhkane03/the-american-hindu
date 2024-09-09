@@ -92,69 +92,6 @@ export default function Page() {
               </p>
             </div>
           </section>
-          <section
-            id='team'
-            className='min-h-screen flex flex-col items-center justify-center font-bold  text-white text-lg px-4 py-8'>
-            <div className='mb-[10%]'>OUR TEAM</div>
-            <div className='text-bold max-h-screen overflow-y-scroll scrollbar-hide'>
-              <Member
-                picture={<img src={"/ashima-headshot.jpeg"} />}
-                name='Ashima Sharma'
-                role='Author'
-                major='The Hindu American Mosaic'
-                ig='false'
-                li='https://www.linkedin.com/in/ashima-sharma2000/'
-                git='false'
-                id=''
-                fb='false'
-              />
-              <Member
-                picture={<img src={"/charu-headshot.jpeg"} />}
-                name='Charu Chaturvedi'
-                role='Illustrator'
-                major='Hindu'
-                ig='https://www.instagram.com/imcharuchaturvedi'
-                li='https://www.linkedin.com/in/cchaturvedi/'
-                git='false'
-                id='sumedh'
-                fb='false'
-              />
-              <Member
-                picture={<img src={"/ishita-headshot.jpeg"} />}
-                name='Ishita Raghuvanshi'
-                role='Illustrator'
-                major='Hindu'
-                ig=' https://www.instagram.com/isxr04'
-                li='https://www.linkedin.com/in/ishitaraghuvanshi22/'
-                git='false'
-                id='mangesh'
-                fb='false'
-              />
-              <Member
-                picture={<img src='/ritika-headshot.jpeg'></img>}
-                name='Ritika Devarakonda'
-                role='Illustrator'
-                major='The Hindu American Mosaic'
-                ig='false'
-                li='https://www.linkedin.com/in/ritika-devarakonda/'
-                git='false'
-                id='ritika'
-                fb='false'
-              />
-              {/* BASE MEMBER CARD */}
-              {/* <Member
-                picture={<img src={"/swami.jpg"} />}
-                name='New Member'
-                role='Hindu'
-                major='Hindu'
-                ig='https://www.instagram.com/theamericanhindu/'
-                li='https://www.linkedin.com/in/ritika-devarakonda/'
-                git='https://github.com/sumedhkane03/'
-                id='mangesh'
-                fb='false'
-              /> */}
-            </div>
-          </section>
         </div>
         <section
           id='join'
@@ -287,69 +224,6 @@ export default function Page() {
                   exploration and understanding of Hindu traditions in a
                   contemporary context.
                 </p>
-              </div>
-            </section>
-            <section
-              id='team'
-              className='min-h-screen flex flex-col items-center justify-center font-bold  text-white text-lg px-4 py-8'>
-              <div className='text-4xl mb-100'>OUR TEAM</div>
-              <div className='team-page-container text-bold'>
-                <Member
-                  picture={<img src={"/ashima-headshot.jpeg"} />}
-                  name='Ashima Sharma'
-                  role='Author'
-                  major='The Hindu American Mosaic'
-                  ig='false'
-                  li='https://www.linkedin.com/in/ashima-sharma2000/'
-                  git='false'
-                  id=''
-                  fb='false'
-                />
-                <Member
-                  picture={<img src={"/charu-headshot.jpeg"} />}
-                  name='Charu Chaturvedi'
-                  role='Illustrator'
-                  major='Hindu'
-                  ig='https://www.instagram.com/imcharuchaturvedi'
-                  li='https://www.linkedin.com/in/cchaturvedi/'
-                  git='false'
-                  id='sumedh'
-                  fb='false'
-                />
-                <Member
-                  picture={<img src={"/ishita-headshot.jpeg"} />}
-                  name='Ishita Raghuvanshi'
-                  role='Illustrator'
-                  major='Hindu'
-                  ig=' https://www.instagram.com/isxr04'
-                  li='https://www.linkedin.com/in/ishitaraghuvanshi22/'
-                  git='false'
-                  id='mangesh'
-                  fb='false'
-                />
-                <Member
-                  picture={<img src='/ritika-headshot.jpeg'></img>}
-                  name='Ritika Devarakonda'
-                  role='Illustrator'
-                  major='The Hindu American Mosaic'
-                  ig='false'
-                  li='https://www.linkedin.com/in/ritika-devarakonda/'
-                  git='false'
-                  id='ritika'
-                  fb='false'
-                />
-                {/* BASE MEMBER CARD */}
-                {/* <Member
-                picture={<img src={"/swami.jpg"} />}
-                name='New Member'
-                role='Hindu'
-                major='Hindu'
-                ig='https://www.instagram.com/theamericanhindu/'
-                li='https://www.linkedin.com/in/ritika-devarakonda/'
-                git='https://github.com/sumedhkane03/'
-                id='mangesh'
-                fb='false'
-              /> */}
               </div>
             </section>
           </div>

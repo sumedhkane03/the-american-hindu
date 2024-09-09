@@ -37,7 +37,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "team", "join"];
+      const sections = ["home", "about", "join"];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -61,8 +61,8 @@ export default function Header() {
     // { name: "Book", href: "#book" },
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
-    { name: "Team", href: "#team" },
-    { name: "Join Us", href: "#join" },
+    // { name: "Team", href: "#team" },
+    { name: "Contact", href: "#join" },
   ];
 
   if (isMobile) {
