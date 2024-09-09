@@ -200,12 +200,12 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <div className='container mx-auto px-4 max-w-7xl'>
-                <p className='text-lg sm:text-xl lg:text-2xl text-center mb-8'>
+              <div className='container mx-auto px-4 max-w-4xl mt-[6.5%]'>
+                <p className='text-xl sm:text-xl lg:text-3xl text-center mb-8'>
                   The American Hindu is a dynamic, youth-driven initiative that
                   began as an Instagram content creator in January.
                 </p>
-                <p className='text-xs sm:text-lg lg:text-xl text-center mb-8'>
+                <p className='text-xs sm:text-md lg:text-lg text-center mb-8'>
                   Seeing a lack of informative content on Hindu culture,
                   Hindu-American students and young professionals from around
                   the country came together to fill the void on social media.
@@ -213,7 +213,7 @@ export default function Page() {
                   features several post series such as Hinduism 101, Sanskrit
                   Non-Translatables, Festival Posts, and Trending Topics.
                 </p>
-                <p className='text-xs sm:text-lg lg:text-xl text-center mb-8'>
+                <p className='text-xs sm:text-lg lg:text-lg text-center mb-8'>
                   The American Hindu has since evolved into a self-publishing
                   organization specializing in a diverse range of Hindu
                   educational content. Through a blend of traditional and modern
