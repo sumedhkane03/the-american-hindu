@@ -34,7 +34,7 @@ export default function Page() {
           className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book pb-[25%]'>
           {/* <div className='items-center text-center'> */}
           <img
-            className='max-w-[75%] max-h-[75%] book-img-blur book-img-style '
+            className='max-w-[70%] max-h-[70%] book-img-blur book-img-style'
             src='/book-rhs.png'
           />
           <h2 className='text-center tah-clear-sans pt-[10%]'>
@@ -48,8 +48,9 @@ export default function Page() {
           </h2>
           <a
             target='_blank'
+            className='pt-[5%]'
             href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
-            <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book'>
+            <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
               Buy Now
             </button>
           </a>
@@ -156,7 +157,7 @@ export default function Page() {
             id='home'
             className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>
             <div className='items-center text-center'>
-              <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12'>
+              <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
                 The Hindu-American Mosaic is the inaugural publication from The
                 American Hindu, offering a tribute to the history and evolution
                 of the Hindu community in the United States. Through recounts of
@@ -167,8 +168,9 @@ export default function Page() {
               </h2>
               <a
                 target='_blank'
+                className=''
                 href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
-                <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans buy-book'>
+                <button className=' pt-[5%] w-60 buy-book-button-before text-gray-900 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
                   Buy Now
                 </button>
               </a>
