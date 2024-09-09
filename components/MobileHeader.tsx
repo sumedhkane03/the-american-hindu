@@ -9,13 +9,13 @@ function MobileHeader() {
   return (
     <>
 
-      <div className='text-over-image-container mx-auto flex justify-center flex-col items-center  bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+      <div className='pl-2 d-header flex-col items-center '>
         <div>
           <img
             src="TAHSwami(2).png"
             alt="The American Hindu Logo"
-            className="w-60 h-60 object-cover rounded-full overflow-hidden max-w-[130px] max-h-[130px] bg-red-100 mt-2 mb-2" />
-
+            className="mt-1 w-60 h-60 object-cover rounded-full overflow-hidden max-w-[60px] max-h-[60px] bg-red-100" />
+            
           {/* <p className='mb-4 ml-6 justify-center font-semibold	mobile-header-the-american'>The American</p>
           <p className =' ml-10 justify-center font-bold		mobile-header-hindu'>Hindu</p> */}
         </div>
