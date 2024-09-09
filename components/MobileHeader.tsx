@@ -13,7 +13,7 @@ function MobileHeader() {
       <div>
 
         <div className='mobile-title mx-auto flex justify-center flex-col items-center bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-          <p className=' mt-2 text-3xl font-semibold font-sans-serif '>The American Hindu</p> 
+          <p className=' mt-2 text-3xl font-semibold font-sans-serif '>The American Hindu</p>
           {/* text-3xl font-semibold font-serif pt-3  */}
           <a href='#home'>
             <img
