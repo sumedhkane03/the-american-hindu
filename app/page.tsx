@@ -103,12 +103,12 @@ export default function Page() {
                   Join Our Community
                 </h2>
                 <p className='text-xl sm:text-2xl mb-6 text-left'>
-                  Become a part of The American Hindu&apos;s mailing list to
-                  stay updated on our mission to create Hindu representation in
-                  mixed media.
+                  {/* No mailing list just social media and email */}
+                  Follow us on social media to stay updated on our mission to
+                  create Hindu representation in mixed media.
                 </p>
                 <div className='flex flex-row gap-[2%]'>
-                  <a
+                  {/* <a
                     href='https://forms.gle/nD3DvXgjB5pTeuwy8'
                     target='_blank'
                     rel='noopener noreferrer'
@@ -116,9 +116,9 @@ export default function Page() {
                     <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 hover:scale-105 transition duration-300'>
                       Join Now
                     </button>
-                  </a>
+                  </a> */}
                   {/* <div className='border-2 border-color-black pr-[11%] pt-[1%]'> */}
-                  <div className='text-2xl flex flex-row align-middle gap-[15%] pt-[1.5%] pl-[5%] '>
+                  <div className='text-3xl flex flex-row align-middle gap-[15%] pt-[1.5%] '>
                     <a
                       target='_blank'
                       href='https://facebook.com/TheAmericanHinduPage'>
@@ -234,15 +234,15 @@ export default function Page() {
               <div className='flex flex-col md:flex-row items-start justify-center'>
                 <div className='text-white md:w-2/3 pr-0 md:pr-8'>
                   <h2 className='text-4xl xs:text-5xl lg:text-6xl font-bold mb-4 text-center'>
-                    Join Our Community
+                    Stay Connected
                   </h2>
                   <p className='text-xl sm:text-2xl mb-6 text-center'>
-                    Become a part of The American Hindu&apos;s mailing list to
-                    stay updated on our mission to create Hindu representation
-                    in mixed media.
+                    {/* No mailing list just social media and email */}
+                    Follow us on social media to stay updated on our mission to
+                    create Hindu representation in mixed media.
                   </p>
                   <div className='flex flex-row gap-[2%] flex flex-col justify-center text-center align-center'>
-                    <a
+                    {/* <a
                       href='https://forms.gle/nD3DvXgjB5pTeuwy8'
                       target='_blank'
                       rel='noopener noreferrer'
@@ -250,9 +250,9 @@ export default function Page() {
                       <button className='bg-white text-black font-bold py-2 px-6 rounded-full hover:bg-gray-200 hover:scale-105 transition duration-300'>
                         Join Now
                       </button>
-                    </a>
+                    </a> */}
                     {/* <div className='border-2 border-color-black pr-[11%] pt-[1%]'> */}
-                    <div className='text-2xl flex flex-row align-middle gap-[15%] pt-[10%] justify-center'>
+                    <div className='text-3xl flex flex-row align-middle gap-[15%] pt-[5%] justify-center'>
                       <a
                         target='_blank'
                         href='https://facebook.com/TheAmericanHinduPage'>
