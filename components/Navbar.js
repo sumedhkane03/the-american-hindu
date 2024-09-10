@@ -2,8 +2,8 @@ import {React, useState, useRef, useEffect} from 'react'
 
 import { Link, useNavigate } from 'react-router-dom';
 import {MdClose, MdMenu} from 'react-icons/md';
-import { db, auth } from '../Firebase';
-
+// import { db, auth } from '../Firebase';
+import "..styles/Navbar.css"
 import { onAuthStateChanged, getAuth, updateProfile, signOut } from "firebase/auth";
 
 

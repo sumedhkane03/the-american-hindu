@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import MobileHeader from "../components/MobileHeader";
 import Image from "next/image";
 import Member from "../components/Member";
+// import Navbar from "../components/Navbar";
 import "../styles/Book.css";
 import "@fontsource/clear-sans";
 import { BsFacebook, BsTwitterX } from "react-icons/bs";
@@ -26,8 +27,9 @@ export default function Page() {
 
   if (isMobile) {
     return (
-      <div className ='pb-9'>
+      <div className='pb-9'>
         <MobileHeader />
+        {/* <Navbar /> */}
         <div className='mt-[-20%] powerpoint-scroll-container'>
           {/* <div className='min-h-screen bg-gray-100'> */}
           {/* <main> */}
@@ -209,14 +211,7 @@ export default function Page() {
                   The American Hindu is a dynamic, youth-driven initiative that
                   began as an Instagram content creator in January.
                 </p>
-                <p className='text-xs sm:text-md lg:text-lg text-center mb-8'>
-                  Seeing a lack of informative content on Hindu culture,
-                  Hindu-American students and young professionals from around
-                  the country came together to fill the void on social media.
-                  Focusing on education and advocacy of Hindu topics, the page
-                  features several post series such as Hinduism 101, Sanskrit
-                  Non-Translatables, Festival Posts, and Trending Topics.
-                </p>
+                
                 <p className='text-xs sm:text-lg lg:text-lg text-center mb-8'>
                   The American Hindu has since evolved into a self-publishing
                   organization specializing in a diverse range of Hindu
