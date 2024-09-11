@@ -82,19 +82,20 @@ export default function Page() {
               <div className='mx-auto pt-[30%]'>
                 <p className='text-l font-semibold text-center mb-4'>
                   The American Hindu is a dynamic, youth-driven initiative that
-                  began as an Instagram content creator in January.
+                  began as an Instagram content creator in January 2020.
                 </p>
                 <p className='font-light text-s text-center mb-1 '>
                   The American Hindu has evolved into a self-publishing
                   organization specializing in a diverse range of Hindu
                   educational content. Through a blend of traditional and modern
                   mixed-media formats, including print and digital publications,
-                  videos, and interactive resources, the organization aims to make
-                  Hindu culture, philosophy, and history accessible and engaging
-                  for a wide audience. By empowering young creators and fostering
-                  a collaborative environment, The American Hindu preserves and
-                  promotes cultural heritage and encourages the exploration and
-                  understanding of Hindu traditions in a contemporary context.
+                  videos, and interactive resources, the organization aims to
+                  make Hindu culture, philosophy, and history accessible and
+                  engaging for a wide audience. By empowering young creators and
+                  fostering a collaborative environment, The American Hindu
+                  preserves and promotes cultural heritage and encourages the
+                  exploration and understanding of Hindu traditions in a
+                  contemporary context.
                 </p>
               </div>
             </section>
@@ -138,7 +139,9 @@ export default function Page() {
                       <a target='_blank' href='https://x.com/American_Hindu'>
                         <BsTwitterX />
                       </a>
-                      <a target='_blank' href='mailto:theamericanhindu@gmail.com'>
+                      <a
+                        target='_blank'
+                        href='mailto:theamericanhindu@gmail.com'>
                         <MdEmail />
                       </a>
                       {/* </div> */}
@@ -189,7 +192,7 @@ export default function Page() {
               src='/book-rhs.png'
             />
           </section>
-          <div className='bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+          <div className='bg-gradient-to-br from-red-600 via-navy-900 to-sky-400 '>
             <section
               id='about'
               className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8'>
@@ -207,11 +210,11 @@ export default function Page() {
                 </div>
               </div>
               <div className='container mx-auto px-4 max-w-4xl mt-[6.5%]'>
-                <p className='text-xl sm:text-xl lg:text-3xl text-center mb-8'>
+                <p className='text-2xl sm:text-2xl lg:text-4xl text-center mb-8'>
                   The American Hindu is a dynamic, youth-driven initiative that
-                  began as an Instagram content creator in January.
+                  began as an Instagram content creator in January 2020.
                 </p>
-                
+
                 <p className='text-xs sm:text-lg lg:text-lg text-center mb-8'>
                   The American Hindu has since evolved into a self-publishing
                   organization specializing in a diverse range of Hindu
