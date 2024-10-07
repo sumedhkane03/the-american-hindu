@@ -56,6 +56,7 @@ function MobileHeader() {
     { name: "Home", href: "#home" },
     { name: "About Us", href: "#about" },
     { name: "Contact", href: "#join" },
+    {name: "Instagram", href: '#instagram-feed'}
   ];
 
   return (

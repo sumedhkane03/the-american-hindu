@@ -13,6 +13,8 @@ import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer";
+import { InstagramEmbed } from 'react-social-media-embed';
+
 
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false);
@@ -151,6 +153,17 @@ export default function Page() {
               </div>
             </div>
           </section>
+          <section
+            id="instagram-feed"
+            className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+            <div className ='mt-16 mb-(-4)'
+              style={{ display: 'flex', justifyContent: 'center' }}>
+                    <InstagramEmbed url="https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA==" width={328} captioned/>
+            </div>
+            <p className='fixed bottom-1 opacity-50 left-2'>
+              © 2024 The American Hindu. All rights reserved.
+            </p>
+          </section>
         </div>
       </div>
     );
@@ -279,6 +292,14 @@ export default function Page() {
                   </div>
                 </div>
               </div>
+            </div>
+          </section>
+          <section
+            id="instagram-feed"
+            className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
+            <div className ='mt-16 mb-(-4)'
+              style={{ display: 'flex', justifyContent: 'center' }}>
+                    <InstagramEmbed url="https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA==" width={328} captioned/>
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
               © 2024 The American Hindu. All rights reserved.
