@@ -307,7 +307,6 @@ export default function Page() {
               <InstagramEmbed
                 url='https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA=='
                 width={328}
-                captioned
               />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
