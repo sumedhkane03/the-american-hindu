@@ -13,8 +13,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useState, useEffect } from "react";
 import Footer from "../components/Footer";
-import { InstagramEmbed } from 'react-social-media-embed';
-
+import { InstagramEmbed } from "react-social-media-embed";
 
 export default function Page() {
   const [isMobile, setIsMobile] = useState(false);
@@ -154,11 +153,16 @@ export default function Page() {
             </div>
           </section>
           <section
-            id="instagram-feed"
+            id='instagram-feed'
             className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-            <div className ='mt-16 mb-(-4)'
-              style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA==" width={328} captioned/>
+            <div
+              className='mt-16 mb-(-4)'
+              style={{ display: "flex", justifyContent: "center" }}>
+              <InstagramEmbed
+                url='https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA=='
+                width={328}
+                captioned
+              />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
               © 2024 The American Hindu. All rights reserved.
@@ -191,7 +195,7 @@ export default function Page() {
               <a
                 target='_blank'
                 className=''
-                href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
+                href='https://www.amazon.com/dp/B0DJGBRG17?ref=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&ref_=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&social_share=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&starsLeft=1&skipTwisterOG=1'>
                 <button className=' pt-[5%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
                   Buy Now
                 </button>
@@ -295,11 +299,16 @@ export default function Page() {
             </div>
           </section>
           <section
-            id="instagram-feed"
+            id='instagram-feed'
             className='min-h-screen flex flex-col items-center justify-center text-white px-4 py-8 bg-gradient-to-br from-red-600 via-navy-900 to-sky-400'>
-            <div className ='mt-16 mb-(-4)'
-              style={{ display: 'flex', justifyContent: 'center' }}>
-                    <InstagramEmbed url="https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA==" width={328} captioned/>
+            <div
+              className='mt-16 mb-(-4)'
+              style={{ display: "flex", justifyContent: "center" }}>
+              <InstagramEmbed
+                url='https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA=='
+                width={328}
+                captioned
+              />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
               © 2024 The American Hindu. All rights reserved.
