@@ -55,7 +55,7 @@ export default function Page() {
             <a
               target='_blank'
               className='pt-[6%]'
-              href='https://www.amazon.com/Hindu-American-Mosaic-American-Hindu/dp/B0DFXH93R5/ref=sr_1_1?crid=3SA73LG61AA4M&dib=eyJ2IjoiMSJ9.Gfjy2LwA45QqeZE91v_F24dWWVqWxr3x4PlwrK449Ao.ZotFrzLZ9fB1lo90LnksUfkDdI_SDfp5FZw3F2oxWh0&dib_tag=se&keywords=the+hindu+american+mosaic&qid=1725719899&sprefix=the+american+hindu%2Caps%2C116&sr=8-1'>
+              href='https://www.amazon.com/dp/B0DJGBRG17?ref=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&ref_=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&social_share=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&starsLeft=1&skipTwisterOG=1'>
               <button className='w-60 buy-book-button-before text-gray-800 hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
                 Buy Now
               </button>
@@ -161,7 +161,6 @@ export default function Page() {
               <InstagramEmbed
                 url='https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA=='
                 width={328}
-                captioned
               />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
