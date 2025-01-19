@@ -2,6 +2,11 @@
     background: linear-gradient(135deg,rgb(169,65,109),rgb(51,36,83));
 }
 
+.custom-book-echoes{
+    /* background: linear-gradient(135deg,rgb(57, 67, 92),#67798e); */
+    background: linear-gradient(135deg,rgb(98,103,149),rgb(57, 67, 92));
+}
+
 
 .tah-clear-sans{
     font-family: "Clear Sans";
@@ -50,7 +55,14 @@
 
 .buy-book-button-before{
   
+    
     background-color: #d1512e;
+    
+}
+
+.buy-book-button-before-echoes{
+    /* background-color: #A2BEDD; */
+    background-color: rgb(105,122,165);
 }
 
 

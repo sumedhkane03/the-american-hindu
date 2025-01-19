@@ -34,7 +34,34 @@ export default function Page() {
         <div className='mt-[-20%] powerpoint-scroll-container'>
           {/* <div className='min-h-screen bg-gray-100'> */}
           {/* <main> */}
-
+          <section
+            id='echoes'
+            className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book-echoes pb-[20%]'>
+            {/* <div className='items-center text-center'> */}
+            <img
+              className='max-w-[70%] max-h-[70%] book-img-blur book-img-style'
+              src='/Echoes_of_the_Silenced.png'
+            />
+            <h2 className='mt-[-6%] text-center tah-clear-sans pt-[15%]'>
+              The American Hindu&apos;s second publication, Echoes of the
+              Silenced, illuminates the long-neglected history of Hindu
+              persecutions, exoduses, and genocides. By bridging the past and
+              present, it calls for recognition, understanding, and justice for
+              the victims of Hindu persecution.
+            </h2>
+            <a
+              target='_blank'
+              className='pt-[6%]'
+              href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+              <button className='w-60 buy-book-button-before-echoes text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
+                Instagram Post
+              </button>
+            </a>
+            {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
+              Buy Now
+            </Button> */}
+            {/* </div> */}
+          </section>
           <section
             id='home'
             className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book pb-[20%]'>
@@ -178,6 +205,45 @@ export default function Page() {
         {/* <MobileHeader/> */}
 
         <main className='powerpoint-scroll-container'>
+          <section
+            id='echoes'
+            className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book-echoes'>
+            <div className='items-center text-center'>
+              <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
+                The American Hindu&apos;s second publication, Echoes of the
+                Silenced, illuminates the long-neglected history of Hindu
+                persecutions, exoduses, and genocides. This groundbreaking book
+                is a comprehensive exploration of Hindu persecution in multiple
+                countries, detailing the lasting impacts on American and
+                Canadian descendants of those who endured these horrors. With
+                interviews of over 50 individuals representing 12 persecutions
+                over the last century, Echoes of the Silenced honors the victims
+                while facilitating solemn remembrance, emphasizing both the
+                forgotten and ongoing suffering that Hindus face globally. As
+                the first work of its kind, it provides an in-depth examination
+                of Hindu persecution and its cultural ramifications,
+                underscoring the importance of remembrance and the restoration
+                of dignity. By bridging the past and present, it calls for
+                recognition, understanding, and justice for the victims of Hindu
+                persecution.
+              </h2>
+              <a
+                target='_blank'
+                className=''
+                href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+                <button className=' pt-[5%] w-60 buy-book-button-before-echoes text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
+                  Instagram Post
+                </button>
+              </a>
+              {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
+              Buy Now
+            </Button> */}
+            </div>
+            <img
+              className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
+              src='/Echoes_of_the_Silenced.png'
+            />
+          </section>
           <section
             id='home'
             className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book'>

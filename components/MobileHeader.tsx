@@ -32,7 +32,7 @@ function MobileHeader() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "join"];
+      const sections = ["echoes", "home", "about", "join"];
       const currentSection = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -53,10 +53,12 @@ function MobileHeader() {
   }, [pathname]);
 
   const navItems = [
-    { name: "Home", href: "#home" },
+    // { name: "Book", href: "#book" },
+    { name: "Echoes", href: "#echoes" },
+    { name: "Mosaic", href: "#home" },
     { name: "About Us", href: "#about" },
+    // { name: "Team", href: "#team" },
     { name: "Contact", href: "#join" },
-    {name: "Instagram", href: '#instagram-feed'}
   ];
 
   return (

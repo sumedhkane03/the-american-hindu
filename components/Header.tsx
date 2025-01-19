@@ -59,7 +59,8 @@ export default function Header() {
 
   const navItems = [
     // { name: "Book", href: "#book" },
-    { name: "Home", href: "#home" },
+    { name: "Echoes of the Silenced", href: "#echoes" },
+    { name: "The Hindu American Mosaic", href: "#home" },
     { name: "About Us", href: "#about" },
     // { name: "Team", href: "#team" },
     { name: "Contact", href: "#join" },
