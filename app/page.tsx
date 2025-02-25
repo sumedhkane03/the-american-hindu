@@ -370,9 +370,9 @@ export default function Page() {
               className='mt-16 mb-(-4)'
               style={{ display: "flex", justifyContent: "center" }}>
               <InstagramEmbed
-                url='https://www.instagram.com/p/DA1lznXy6BG/?igsh=MzRlODBiNWFlZA=='
-                width={328}
-              />
+                            url='https://www.instagram.com/theamericanhindu/'
+                            width={700}
+                        />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
               © 2024 The American Hindu. All rights reserved.
