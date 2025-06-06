@@ -32,35 +32,65 @@ export default function Page() {
         <MobileHeader />
         {/* <Navbar /> */}
         <div className='mt-[-20%] powerpoint-scroll-container'>
-          {/* <div className='min-h-screen bg-gray-100'> */}
-          {/* <main> */}
+          <section
+            id='launch'
+            className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 pt-8 pb-12 custom-book-echoes'>
+            <div className='flex flex-col items-center gap-8 max-w-4xl mx-auto text-center'>
+              <img
+                className='max-w-[50%] max-h-[400px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
+                src='/echoes-launch-poster.jpg'
+                alt='Echoes of the Silenced Book Launch Poster'
+              />
+              <h2 className='text-2xl sm:text-3xl tah-clear-sans'>
+                Join us for the launch of Echoes of the Silenced at the Rayburn Foyer in Washington, DC on June 20th, 2024!
+              </h2>
+              <a
+                target='_blank'
+                href='https://tinyurl.com/EoTSLaunch'
+                className='w-full max-w-md'>
+                <button className='w-full bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl tah-clear-sans'>
+                  Sign Up for Launch Event
+                </button>
+              </a>
+            </div>
+          </section>
           <section
             id='echoes'
             className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book-echoes pb-[20%]'>
-            {/* <div className='items-center text-center'> */}
-            <img
-              className='max-w-[70%] max-h-[70%] book-img-blur book-img-style'
-              src='/Echoes_of_the_Silenced.png'
-            />
-            <h2 className='mt-[-6%] text-center tah-clear-sans pt-[15%]'>
-              The American Hindu&apos;s second publication, Echoes of the
-              Silenced, illuminates the long-neglected history of Hindu
-              persecutions, exoduses, and genocides. By bridging the past and
-              present, it calls for recognition, understanding, and justice for
-              the victims of Hindu persecution.
-            </h2>
-            <a
-              target='_blank'
-              className='pt-[6%]'
-              href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
-              <button className='w-60 buy-book-button-before-echoes text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
-                Instagram Post
-              </button>
-            </a>
-            {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
-              Buy Now
-            </Button> */}
-            {/* </div> */}
+            <div className='echoes-content'>
+              <div className='echoes-text'>
+                <h2 className='text-center tah-clear-sans'>
+                  The American Hindu&apos;s second publication, Echoes of the
+                  Silenced, illuminates the long-neglected history of Hindu
+                  persecutions, exoduses, and genocides. By bridging the past and
+                  present, it calls for recognition, understanding, and justice for
+                  the victims of Hindu persecution.
+                </h2>
+                <div className='echoes-buttons'>
+                  <a
+                    target='_blank'
+                    href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
+                      Instagram Post
+                    </button>
+                  </a>
+                  <a
+                    target='_blank'
+                    href='https://tinyurl.com/EoTSLaunch'>
+                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
+                      Book Launch Signup
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className='echoes-image'>
+                <img
+                  className='max-w-[80%] book-img-blur book-img-style'
+                  src='/Echoes_of_the_Silenced.png'
+                  alt='Echoes of the Silenced Book Cover'
+                />
+              </div>
+            </div>
           </section>
           <section
             id='home'
@@ -206,43 +236,75 @@ export default function Page() {
 
         <main className='powerpoint-scroll-container'>
           <section
-            id='echoes'
-            className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book-echoes'>
-            <div className='items-center text-center'>
-              <h2 className='text-center tah-clear-sans mr-9 pl-12 pr-12 pb-8'>
-                The American Hindu&apos;s second publication, Echoes of the
-                Silenced, illuminates the long-neglected history of Hindu
-                persecutions, exoduses, and genocides. This groundbreaking book
-                is a comprehensive exploration of Hindu persecution in multiple
-                countries, detailing the lasting impacts on American and
-                Canadian descendants of those who endured these horrors. With
-                interviews of over 50 individuals representing 12 persecutions
-                over the last century, Echoes of the Silenced honors the victims
-                while facilitating solemn remembrance, emphasizing both the
-                forgotten and ongoing suffering that Hindus face globally. As
-                the first work of its kind, it provides an in-depth examination
-                of Hindu persecution and its cultural ramifications,
-                underscoring the importance of remembrance and the restoration
-                of dignity. By bridging the past and present, it calls for
-                recognition, understanding, and justice for the victims of Hindu
-                persecution.
+            id='launch'
+            className='min-h-screen flex flex-col items-center justify-center text-white px-4 pt-8 pb-12 custom-book-echoes'>
+            <div className='flex flex-col items-center gap-8 max-w-4xl mx-auto text-center'>
+              <img
+                className='max-w-[40%] max-h-[400px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
+                src='/echoes-launch-poster.jpg'
+                alt='Echoes of the Silenced Book Launch Poster'
+              />
+              <h2 className='text-2xl sm:text-3xl tah-clear-sans'>
+                Join us for the launch of Echoes of the Silenced at the Rayburn Foyer in Washington, DC on June 20th, 2024!
               </h2>
               <a
                 target='_blank'
-                className=''
-                href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
-                <button className=' pt-[5%] w-60 buy-book-button-before-echoes text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
-                  Instagram Post
+                href='https://tinyurl.com/EoTSLaunch'
+                className='w-full max-w-md'>
+                <button className='w-full bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl tah-clear-sans'>
+                  Sign Up for Launch Event
                 </button>
               </a>
-              {/* <Button className='buy-book-button border-1px-black mt-8' onClick={buyBook}>
-              Buy Now
-            </Button> */}
             </div>
-            <img
-              className='max-w-[55%] max-h-[55%] book-img-blur book-img-style'
-              src='/Echoes_of_the_Silenced.png'
-            />
+          </section>
+          <section
+            id='echoes'
+            className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book-echoes'>
+            <div className='echoes-content'>
+              <div className='echoes-text'>
+                <h2 className='text-center tah-clear-sans'>
+                  The American Hindu&apos;s second publication, Echoes of the
+                  Silenced, illuminates the long-neglected history of Hindu
+                  persecutions, exoduses, and genocides. This groundbreaking book
+                  is a comprehensive exploration of Hindu persecution in multiple
+                  countries, detailing the lasting impacts on American and
+                  Canadian descendants of those who endured these horrors. With
+                  interviews of over 50 individuals representing 12 persecutions
+                  over the last century, Echoes of the Silenced honors the victims
+                  while facilitating solemn remembrance, emphasizing both the
+                  forgotten and ongoing suffering that Hindus face globally. As
+                  the first work of its kind, it provides an in-depth examination
+                  of Hindu persecution and its cultural ramifications,
+                  underscoring the importance of remembrance and the restoration
+                  of dignity. By bridging the past and present, it calls for
+                  recognition, understanding, and justice for the victims of Hindu
+                  persecution.
+                </h2>
+                <div className='echoes-buttons'>
+                  <a
+                    target='_blank'
+                    href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
+                      Instagram Post
+                    </button>
+                  </a>
+                  <a
+                    target='_blank'
+                    href='https://tinyurl.com/EoTSLaunch'>
+                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
+                      Book Launch Signup
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div className='echoes-image'>
+                <img
+                  className='max-w-[80%] book-img-blur book-img-style'
+                  src='/Echoes_of_the_Silenced.png'
+                  alt='Echoes of the Silenced Book Cover'
+                />
+              </div>
+            </div>
           </section>
           <section
             id='home'
@@ -261,7 +323,7 @@ export default function Page() {
                 target='_blank'
                 className=''
                 href='https://www.amazon.com/dp/B0DJGBRG17?ref=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&ref_=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&social_share=cm_sw_r_cso_cp_apin_dp_FK95T0MJXEQNXDX8V8P8&starsLeft=1&skipTwisterOG=1'>
-                <button className=' pt-[5%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
+                <button className='pt-[5%] w-60 buy-book-button-before text-white hover:text-black font-bold py-3 sm:py-4 px-9 sm:px-12 rounded-full hover:bg-blue-100 transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl sm:text-2xl tah-clear-sans'>
                   Buy Now
                 </button>
               </a>
