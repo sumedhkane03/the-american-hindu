@@ -37,7 +37,7 @@ export default function Page() {
             className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 pt-8 pb-12 custom-book-echoes'>
             <div className='flex flex-col items-center gap-8 max-w-4xl mx-auto text-center'>
               <img
-                className='max-w-[50%] max-h-[400px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
+                className='max-w-[60%] max-h-[600px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
                 src='/echoes-launch-poster.jpg'
                 alt='Echoes of the Silenced Book Launch Poster'
               />
@@ -85,7 +85,7 @@ export default function Page() {
               </div>
               <div className='echoes-image'>
                 <img
-                  className='max-w-[80%] book-img-blur book-img-style'
+                  className='max-w-[70%] book-img-blur book-img-style'
                   src='/Echoes_of_the_Silenced.png'
                   alt='Echoes of the Silenced Book Cover'
                 />
@@ -221,7 +221,7 @@ export default function Page() {
               />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
-              © 2024 The American Hindu. All rights reserved.
+              © 2025 The American Hindu. All rights reserved.
             </p>
           </section>
         </div>
@@ -437,7 +437,7 @@ export default function Page() {
               />
             </div>
             <p className='fixed bottom-1 opacity-50 left-2'>
-              © 2024 The American Hindu. All rights reserved.
+              © 2025 The American Hindu. All rights reserved.
             </p>
           </section>
         </main>
