@@ -69,9 +69,9 @@ export default function Page() {
                 <div className='echoes-buttons'>
                   <a
                     target='_blank'
-                    href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+                    href='https://amazon.com/dp/B0FCN2T4CF'>
                     <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
-                      Instagram Post
+                      Buy Now
                     </button>
                   </a>
                   <a
@@ -283,9 +283,9 @@ export default function Page() {
                 <div className='echoes-buttons'>
                   <a
                     target='_blank'
-                    href='https://www.instagram.com/p/DFAuyUItjto/?igsh=Mm82Nm4xMThoZWho'>
+                    href='https://amazon.com/dp/B0FCN2T4CF'>
                     <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
-                      Instagram Post
+                      Buy Now
                     </button>
                   </a>
                   <a
