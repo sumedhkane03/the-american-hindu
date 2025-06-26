@@ -33,28 +33,6 @@ export default function Page() {
         {/* <Navbar /> */}
         <div className='mt-[-20%] powerpoint-scroll-container'>
           <section
-            id='launch'
-            className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 pt-8 pb-12 custom-book-echoes'>
-            <div className='flex flex-col items-center gap-8 max-w-4xl mx-auto text-center'>
-              <img
-                className='max-w-[60%] max-h-[600px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
-                src='/echoes-launch-poster.jpg'
-                alt='Echoes of the Silenced Book Launch Poster'
-              />
-              <h2 className='text-2xl sm:text-3xl tah-clear-sans'>
-                Join us for the launch of Echoes of the Silenced at the Rayburn Foyer in Washington, DC on June 20th, 2024!
-              </h2>
-              <a
-                target='_blank'
-                href='https://tinyurl.com/EoTSLaunch'
-                className='w-full max-w-md'>
-                <button className='w-full bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl tah-clear-sans'>
-                  Sign Up for Launch Event
-                </button>
-              </a>
-            </div>
-          </section>
-          <section
             id='echoes'
             className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book-echoes pb-[20%]'>
             <div className='echoes-content'>
@@ -72,13 +50,6 @@ export default function Page() {
                     href='https://amazon.com/dp/B0FCN2T4CF'>
                     <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
                       Buy Now
-                    </button>
-                  </a>
-                  <a
-                    target='_blank'
-                    href='https://tinyurl.com/EoTSLaunch'>
-                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
-                      Book Launch Signup
                     </button>
                   </a>
                 </div>
@@ -236,28 +207,6 @@ export default function Page() {
 
         <main className='powerpoint-scroll-container'>
           <section
-            id='launch'
-            className='min-h-screen flex flex-col items-center justify-center text-white px-4 pt-8 pb-12 custom-book-echoes'>
-            <div className='flex flex-col items-center gap-8 max-w-4xl mx-auto text-center'>
-              <img
-                className='max-w-[40%] max-h-[400px] rounded-lg shadow-xl mt-12 mb-4 object-contain'
-                src='/echoes-launch-poster.jpg'
-                alt='Echoes of the Silenced Book Launch Poster'
-              />
-              <h2 className='text-2xl sm:text-3xl tah-clear-sans'>
-                Join us for the launch of Echoes of the Silenced at the Rayburn Foyer in Washington, DC on June 20th, 2024!
-              </h2>
-              <a
-                target='_blank'
-                href='https://tinyurl.com/EoTSLaunch'
-                className='w-full max-w-md'>
-                <button className='w-full bg-white text-gray-800 hover:bg-gray-100 font-bold py-4 px-8 rounded-lg transform hover:scale-105 transition duration-300 ease-in-out shadow-lg text-xl tah-clear-sans'>
-                  Sign Up for Launch Event
-                </button>
-              </a>
-            </div>
-          </section>
-          <section
             id='echoes'
             className='min-h-screen flex flex-row items-center justify-center text-white px-4 py-8 custom-book-echoes'>
             <div className='echoes-content'>
@@ -286,13 +235,6 @@ export default function Page() {
                     href='https://amazon.com/dp/B0FCN2T4CF'>
                     <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
                       Buy Now
-                    </button>
-                  </a>
-                  <a
-                    target='_blank'
-                    href='https://tinyurl.com/EoTSLaunch'>
-                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
-                      Book Launch Signup
                     </button>
                   </a>
                 </div>
