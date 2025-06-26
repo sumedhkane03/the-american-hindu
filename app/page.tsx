@@ -32,37 +32,45 @@ export default function Page() {
         <MobileHeader />
         {/* <Navbar /> */}
         <div className='mt-[-20%] powerpoint-scroll-container'>
-          <section
-            id='echoes'
-            className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book-echoes pb-[20%]'>
-            <div className='echoes-content'>
-              <div className='echoes-text'>
-                <h2 className='text-center tah-clear-sans'>
-                  The American Hindu&apos;s second publication, Echoes of the
-                  Silenced, illuminates the long-neglected history of Hindu
-                  persecutions, exoduses, and genocides. By bridging the past and
-                  present, it calls for recognition, understanding, and justice for
-                  the victims of Hindu persecution.
-                </h2>
-                <div className='echoes-buttons'>
-                  <a
-                    target='_blank'
-                    href='https://amazon.com/dp/B0FCN2T4CF'>
-                    <button className='w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans'>
-                      Buy Now
-                    </button>
-                  </a>
-                </div>
-              </div>
-              <div className='echoes-image'>
-                <img
-                  className='max-w-[70%] book-img-blur book-img-style'
-                  src='/Echoes_of_the_Silenced.png'
-                  alt='Echoes of the Silenced Book Cover'
-                />
-              </div>
+        <section
+          id="echoes"
+          className="min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book-echoes pb-[20%]"
+        >
+          <div className="echoes-content flex flex-col items-center gap-6">
+            {/* Image */}
+            <div className="echoes-image">
+              <img
+                className="max-w-[70%] book-img-blur book-img-style"
+                src="/Echoes_of_the_Silenced.png"
+                alt="Echoes of the Silenced Book Cover"
+              />
             </div>
-          </section>
+
+            {/* Text */}
+            <div className="echoes-text text-center tah-clear-sans max-w-3xl">
+              <h2>
+                The American Hindu&apos;s second publication, <em>Echoes of the Silenced</em>,
+                illuminates the long-neglected history of Hindu persecutions, exoduses, and
+                genocides. By bridging the past and present, it calls for recognition,
+                understanding, and justice for the victims of Hindu persecution.
+              </h2>
+            </div>
+          
+
+    {/* Button */}
+    <div className="echoes-buttons w-full flex justify-center">
+      <a
+        target="_blank"
+        href="https://amazon.com/dp/B0FCN2T4CF"
+      >
+        <button className="w-full buy-book-button-before-echoes text-white hover:text-white font-bold py-3 sm:py-4 px-9 sm:px-12 text-xl sm:text-2xl tah-clear-sans">
+          Buy Now
+        </button>
+      </a>
+    </div>
+  </div>
+</section>
+
           <section
             id='home'
             className='min-h-screen max-w-screen flex flex-col items-center justify-center text-white px-4 py-8 custom-book pb-[20%]'>
